@@ -11,6 +11,7 @@ Repozitorij i skup podataka su pod **MIT licencom:**
 ## Osnovne Informacije
 
 | **Naziv skupa** | Gradovi |
+| :--- | :--- |
 | **Autor** | Luka Lacković |
 | **Licenca** | [MIT Licence](https://opensource.org/licenses/MIT) |
 | **Jezik** | hrvatski |
@@ -24,6 +25,7 @@ Repozitorij i skup podataka su pod **MIT licencom:**
 Baza podataka napravljena je u **PostgreSQL-u**.
 
 Baza se sastoji od **2** relacije:
+
 	- grad
 	- gradska četvrt
 	
