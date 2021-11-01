@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1,
+        "naziv": "Zagreb",
+        "drzava": "Hrvatska",
+        "kontinent": "Europa",
+        "povrsina": 641,
+        "nadmorska_visina": 158,
+        "broj_stanovnika": 790017,
+        "gustoca_naseljenosti": 1232,
+        "gradonacelnik": "Tomislav Tomašević",
+        "web": "http://www.zagreb.hr/",
+        "vremenska_zona": 1,
+        "glavni_grad": true,
+        "gradske_cetvrti": [
+            {
+                "id": 1,
+                "naziv": "Sesvete",
+                "povrsina": 165.26,
+                "broj_stanovnika": 70633,
+                "gustoca_naseljenosti": 428
+            },
+            {
+                "id": 2,
+                "naziv": "Gornja Dubrava",
+                "povrsina": 40.28,
+                "broj_stanovnika": 62221,
+                "gustoca_naseljenosti": 1555
+            },
+            {
+                "id": 3,
+                "naziv": "Maksimir",
+                "povrsina": 14.35,
+                "broj_stanovnika": 49448,
+                "gustoca_naseljenosti": 3532
+            },
+            {
+                "id": 4,
+                "naziv": "Donji grad",
+                "povrsina": 3.01,
+                "broj_stanovnika": 37123,
+                "gustoca_naseljenosti": 12374
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "naziv": "Rijeka",
+        "drzava": "Hrvatska",
+        "kontinent": "Europa",
+        "povrsina": 44,
+        "nadmorska_visina": 12,
+        "broj_stanovnika": 128624,
+        "gustoca_naseljenosti": 2923,
+        "gradonacelnik": "Marko Filipović",
+        "web": "http://www.rijeka.hr/",
+        "vremenska_zona": 1,
+        "glavni_grad": false,
+        "gradske_cetvrti": [
+            {
+                "id": 5,
+                "naziv": "Banderovo",
+                "povrsina": 0.36,
+                "broj_stanovnika": 2235,
+                "gustoca_naseljenosti": 6208
+            },
+            {
+                "id": 6,
+                "naziv": "Draga",
+                "povrsina": 3.45,
+                "broj_stanovnika": 1463,
+                "gustoca_naseljenosti": 424
+            },
+            {
+                "id": 7,
+                "naziv": "Podvežica",
+                "povrsina": 0.73,
+                "broj_stanovnika": 6110,
+                "gustoca_naseljenosti": 8369
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "naziv": "Split",
+        "drzava": "Hrvatska",
+        "kontinent": "Europa",
+        "povrsina": 79,
+        "nadmorska_visina": 0,
+        "broj_stanovnika": 178192,
+        "gustoca_naseljenosti": 2256,
+        "gradonacelnik": "Ivica Puljak",
+        "web": "http://www.split.hr/",
+        "vremenska_zona": 1,
+        "glavni_grad": false,
+        "gradske_cetvrti": [
+            {
+                "id": 8,
+                "naziv": "Bačvice",
+                "povrsina": 1.19,
+                "broj_stanovnika": 3347,
+                "gustoca_naseljenosti": 2812
+            },
+            {
+                "id": 9,
+                "naziv": "Bol",
+                "povrsina": 0.52,
+                "broj_stanovnika": 11550,
+                "gustoca_naseljenosti": 22212
+            },
+            {
+                "id": 10,
+                "naziv": "Lokve",
+                "povrsina": 0.21,
+                "broj_stanovnika": 7173,
+                "gustoca_naseljenosti": 34157
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "naziv": "New York",
+        "drzava": "Sjedinjene Američke Države",
+        "kontinent": "Sjeverna Amerika",
+        "povrsina": 1223,
+        "nadmorska_visina": 10,
+        "broj_stanovnika": 8804190,
+        "gustoca_naseljenosti": 11314,
+        "gradonacelnik": "Bill de Blasio",
+        "web": "https://www.nyc.gov/",
+        "vremenska_zona": -5,
+        "glavni_grad": false,
+        "gradske_cetvrti": [
+            {
+                "id": 11,
+                "naziv": "The Bronx",
+                "povrsina": 109.3,
+                "broj_stanovnika": 1472654,
+                "gustoca_naseljenosti": 13482
+            },
+            {
+                "id": 12,
+                "naziv": "Brooklyn",
+                "povrsina": 179.7,
+                "broj_stanovnika": 2736074,
+                "gustoca_naseljenosti": 15227
+            },
+            {
+                "id": 13,
+                "naziv": "Manhattan",
+                "povrsina": 58.8,
+                "broj_stanovnika": 1694251,
+                "gustoca_naseljenosti": 28872
+            },
+            {
+                "id": 14,
+                "naziv": "Queens",
+                "povrsina": 281.5,
+                "broj_stanovnika": 2405464,
+                "gustoca_naseljenosti": 8542
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "naziv": "Washington",
+        "drzava": "Sjedinjene Američke Države",
+        "kontinent": "Sjeverna Amerika",
+        "povrsina": 177,
+        "nadmorska_visina": 125,
+        "broj_stanovnika": 689545,
+        "gustoca_naseljenosti": 4361,
+        "gradonacelnik": "Muriel Bowser",
+        "web": "http://dc.gov/",
+        "vremenska_zona": -5,
+        "glavni_grad": true,
+        "gradske_cetvrti": [
+            {
+                "id": 15,
+                "naziv": "Columbia Heights",
+                "povrsina": 2.2,
+                "broj_stanovnika": 21376,
+                "gustoca_naseljenosti": 9716
+            },
+            {
+                "id": 16,
+                "naziv": "Georgetown",
+                "povrsina": 3.035,
+                "broj_stanovnika": 10829,
+                "gustoca_naseljenosti": 3568
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "naziv": "London",
+        "drzava": "Ujedinjeno Kraljevstvo",
+        "kontinent": "Europa",
+        "povrsina": 1572,
+        "nadmorska_visina": 11,
+        "broj_stanovnika": 8961989,
+        "gustoca_naseljenosti": 5701,
+        "gradonacelnik": "Sadiq Khan",
+        "web": "https://www.london.gov.uk/",
+        "vremenska_zona": 0,
+        "glavni_grad": true,
+        "gradske_cetvrti": [
+            {
+                "id": 17,
+                "naziv": "Southwark",
+                "povrsina": 28.85,
+                "broj_stanovnika": 318830,
+                "gustoca_naseljenosti": 11050
+            },
+            {
+                "id": 18,
+                "naziv": "City of Westminister",
+                "povrsina": 21.48,
+                "broj_stanovnika": 261317,
+                "gustoca_naseljenosti": 12170
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "naziv": "Barcelona",
+        "drzava": "Španjolska",
+        "kontinent": "Europa",
+        "povrsina": 101,
+        "nadmorska_visina": 12,
+        "broj_stanovnika": 1620343,
+        "gustoca_naseljenosti": 16043,
+        "gradonacelnik": "Ada Colau Ballano",
+        "web": "http://www.barcelona.cat/",
+        "vremenska_zona": 1,
+        "glavni_grad": false,
+        "gradske_cetvrti": [
+            {
+                "id": 19,
+                "naziv": "Ciutat Vella",
+                "povrsina": 4.49,
+                "broj_stanovnika": 111290,
+                "gustoca_naseljenosti": 24786
+            },
+            {
+                "id": 20,
+                "naziv": "Eixample",
+                "povrsina": 7.46,
+                "broj_stanovnika": 262485,
+                "gustoca_naseljenosti": 35586
+            },
+            {
+                "id": 21,
+                "naziv": "Sants-Montjuic",
+                "povrsina": 21.35,
+                "broj_stanovnika": 177636,
+                "gustoca_naseljenosti": 8321
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "naziv": "Berlin",
+        "drzava": "Njemačka",
+        "kontinent": "Europa",
+        "povrsina": 892,
+        "nadmorska_visina": 34,
+        "broj_stanovnika": 3664088,
+        "gustoca_naseljenosti": 4108,
+        "gradonacelnik": "Michael Müller",
+        "web": "http://www.berlin.de/en/",
+        "vremenska_zona": 1,
+        "glavni_grad": true,
+        "gradske_cetvrti": [
+            {
+                "id": 22,
+                "naziv": "Charlottenburg-Wilmersdorf",
+                "povrsina": 64.72,
+                "broj_stanovnika": 319628,
+                "gustoca_naseljenosti": 4878
+            },
+            {
+                "id": 23,
+                "naziv": "Friedrichshain-Kreuzberg",
+                "povrsina": 20.16,
+                "broj_stanovnika": 268225,
+                "gustoca_naseljenosti": 13187
+            },
+            {
+                "id": 24,
+                "naziv": "Lichtenberg",
+                "povrsina": 52.29,
+                "broj_stanovnika": 259881,
+                "gustoca_naseljenosti": 4952
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "naziv": "Melbourne",
+        "drzava": "Australija",
+        "kontinent": "Australija",
+        "povrsina": 9992,
+        "nadmorska_visina": 31,
+        "broj_stanovnika": 5159211,
+        "gustoca_naseljenosti": 516,
+        "gradonacelnik": "Sally Capp",
+        "web": "https://www.melbourne.vic.gov.au/",
+        "vremenska_zona": 10,
+        "glavni_grad": false,
+        "gradske_cetvrti": [
+            {
+                "id": 25,
+                "naziv": "Preston",
+                "povrsina": 11.3,
+                "broj_stanovnika": 32852,
+                "gustoca_naseljenosti": 2907
+            },
+            {
+                "id": 26,
+                "naziv": "Coburg",
+                "povrsina": 7,
+                "broj_stanovnika": 26185,
+                "gustoca_naseljenosti": 3740
+            },
+            {
+                "id": 27,
+                "naziv": "Clayton",
+                "povrsina": 7.7,
+                "broj_stanovnika": 19358,
+                "gustoca_naseljenosti": 2514
+            },
+            {
+                "id": 28,
+                "naziv": "Greensborough",
+                "povrsina": 11.3,
+                "broj_stanovnika": 20821,
+                "gustoca_naseljenosti": 1843
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "naziv": "Rim",
+        "drzava": "Italija",
+        "kontinent": "Europa",
+        "povrsina": 1285,
+        "nadmorska_visina": 21,
+        "broj_stanovnika": 2860009,
+        "gustoca_naseljenosti": 2236,
+        "gradonacelnik": "Roberto Gualtieri",
+        "web": "https://www.comune.roma.it/",
+        "vremenska_zona": 1,
+        "glavni_grad": true,
+        "gradske_cetvrti": [
+            {
+                "id": 29,
+                "naziv": "Municipio I",
+                "povrsina": 19.91,
+                "broj_stanovnika": 186802,
+                "gustoca_naseljenosti": 9382
+            },
+            {
+                "id": 30,
+                "naziv": "Municipio II",
+                "povrsina": 19.60,
+                "broj_stanovnika": 167736,
+                "gustoca_naseljenosti": 8567
+            },
+            {
+                "id": 31,
+                "naziv": "Municipio X",
+                "povrsina": 150.64,
+                "broj_stanovnika": 230544,
+                "gustoca_naseljenosti": 1530
+            },
+            {
+                "id": 32,
+                "naziv": "Municipio XV",
+                "povrsina": 186.70,
+                "broj_stanovnika": 158561,
+                "gustoca_naseljenosti": 849
+            }
+        ]
+    }
+]
