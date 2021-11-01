@@ -6,7 +6,7 @@ Skup podataka napravljen je u sklopu laboratorijskih vježbi iz predmeta **Otvor
 
 Repozitorij i skup podataka su pod **MIT licencom:**
 
-	> Kratka i jednostavna otvoren licenca koja zahtjeva samo očuvanje licence i autorskih prava nad proizvodom koji je originalno distribuiran pod tom licencom. Ono što je izmijenjeno može se licencirati pod drugom licencom i bez izvornog koda.
+> Kratka i jednostavna otvorena licenca koja zahtjeva samo očuvanje licence i autorskih prava nad proizvodom koji je originalno distribuiran pod tom licencom. Ono što je izmijenjeno može se licencirati pod drugom licencom i bez izvornog koda.
 	
 ## Osnovne Informacije
 
@@ -26,8 +26,8 @@ Baza podataka napravljena je u **PostgreSQL-u**.
 
 Baza se sastoji od **2** relacije:
 
-	- grad
-	- gradska četvrt
+	* grad
+	* gradska četvrt
 	
 Svaka gradska četvrt ima jedan grad, a svaki grad ima više gradskih četvrti. Prema tome, grad je roditelj, a gradska četvrt dijete i njihov odnos je **1:N**
 
