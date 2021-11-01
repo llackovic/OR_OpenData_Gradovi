@@ -25,8 +25,8 @@ Repozitorij i skup podataka su pod **MIT licencom:**
 Baza podataka napravljena je u **PostgreSQL-u**.
 
 Baza se sastoji od **2** relacije:
-	- grad
-	- gradska četvrt
+- grad
+- gradska četvrt
 	
 Svaka gradska četvrt ima jedan grad, a svaki grad ima više gradskih četvrti. Prema tome, grad je roditelj, a gradska četvrt dijete i njihov odnos je **1:N**
 
