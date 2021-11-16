@@ -20,7 +20,7 @@ Repozitorij i skup podataka su pod **MIT licencom:**
 | **Broj relacija** | 2 |
 
 
-## Baza podataka - struktura
+## Struktura podataka
 
 Baza podataka napravljena je u **PostgreSQL-u**.
 
