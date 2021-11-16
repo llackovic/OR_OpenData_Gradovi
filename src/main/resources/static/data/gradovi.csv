@@ -1,0 +1,33 @@
+id,naziv,drzava,kontinent,povrsina,nadmorska_visina,broj_stanovnika,gustoca_naseljenosti,gradonacelnik,web,vremenska_zona,glavni_grad,id,naziv,povrsina,broj_stanovnika,gustoca_naseljenosti
+1,Zagreb,Hrvatska,Europa,641,158,790017,1232,Tomislav Tomašević,http://www.zagreb.hr/,1,t,1,Sesvete,165.26,70633,428
+1,Zagreb,Hrvatska,Europa,641,158,790017,1232,Tomislav Tomašević,http://www.zagreb.hr/,1,t,2,Gornja Dubrava,40.28,62221,1555
+1,Zagreb,Hrvatska,Europa,641,158,790017,1232,Tomislav Tomašević,http://www.zagreb.hr/,1,t,3,Maksimir,14.35,49448,3532
+1,Zagreb,Hrvatska,Europa,641,158,790017,1232,Tomislav Tomašević,http://www.zagreb.hr/,1,t,4,Donji grad,3.01,37123,12374
+2,Rijeka,Hrvatska,Europa,44,12,128624,2923,Marko Filipović,http://www.rijeka.hr/,1,f,5,Banderovo,0.36,2235,6208
+2,Rijeka,Hrvatska,Europa,44,12,128624,2923,Marko Filipović,http://www.rijeka.hr/,1,f,6,Draga,3.45,1463,424
+2,Rijeka,Hrvatska,Europa,44,12,128624,2923,Marko Filipović,http://www.rijeka.hr/,1,f,7,Podvežica,0.73,6110,8369
+3,Split,Hrvatska,Europa,79,0,178192,2256,Ivica Puljak,http://www.split.hr/,1,f,8,Bačvice,1.19,3347,2812
+3,Split,Hrvatska,Europa,79,0,178192,2256,Ivica Puljak,http://www.split.hr/,1,f,9,Bol,0.52,11550,22212
+3,Split,Hrvatska,Europa,79,0,178192,2256,Ivica Puljak,http://www.split.hr/,1,f,10,Lokve,0.21,7173,34157
+4,New York,Sjedinjene Američke Države,Sjeverna Amerika,1223,10,8804190,11314,Bill de Blasio,https://www.nyc.gov/,-5,f,11,The Bronx,109.3,1472654,13482
+4,New York,Sjedinjene Američke Države,Sjeverna Amerika,1223,10,8804190,11314,Bill de Blasio,https://www.nyc.gov/,-5,f,12,Brooklyn,179.7,2736074,15227
+4,New York,Sjedinjene Američke Države,Sjeverna Amerika,1223,10,8804190,11314,Bill de Blasio,https://www.nyc.gov/,-5,f,13,Manhattan,58.8,1694251,28872
+4,New York,Sjedinjene Američke Države,Sjeverna Amerika,1223,10,8804190,11314,Bill de Blasio,https://www.nyc.gov/,-5,f,14,Queens,281.5,2405464,8542
+5,Washington,Sjedinjene Američke Države,Sjeverna Amerika,177,125,689545,4361,Muriel Bowser,http://dc.gov/,-5,t,15,Columbia Heights,2.2,21376,9716
+5,Washington,Sjedinjene Američke Države,Sjeverna Amerika,177,125,689545,4361,Muriel Bowser,http://dc.gov/,-5,t,16,Georgetown,3.035,10829,3568
+6,London,Ujedinjeno Kraljevstvo,Europa,1572,11,8961989,5701,Sadiq Khan,https://www.london.gov.uk/,0,t,17,Southwark,28.85,318830,11050
+6,London,Ujedinjeno Kraljevstvo,Europa,1572,11,8961989,5701,Sadiq Khan,https://www.london.gov.uk/,0,t,18,City of Westminister,21.48,261317,12170
+7,Barcelona,Španjolska,Europa,101,12,1620343,16043,Ada Colau Ballano,http://www.barcelona.cat/,1,f,19,Ciutat Vella,4.49,111290,24786
+7,Barcelona,Španjolska,Europa,101,12,1620343,16043,Ada Colau Ballano,http://www.barcelona.cat/,1,f,20,Eixample,7.46,262485,35586
+7,Barcelona,Španjolska,Europa,101,12,1620343,16043,Ada Colau Ballano,http://www.barcelona.cat/,1,f,21,Sants-Montjuic,21.35,177636,8321
+8,Berlin,Njemačka,Europa,892,34,3664088,4108,Michael Müller,http://www.berlin.de/en/,1,t,22,Charlottenburg-Wilmersdorf,64.72,319628,4878
+8,Berlin,Njemačka,Europa,892,34,3664088,4108,Michael Müller,http://www.berlin.de/en/,1,t,23,Friedrichshain-Kreuzberg,20.16,268225,13187
+8,Berlin,Njemačka,Europa,892,34,3664088,4108,Michael Müller,http://www.berlin.de/en/,1,t,24,Lichtenberg,52.29,259881,4952
+9,Melbourne,Australija,Australija,9992,31,5159211,516,Sally Capp,https://www.melbourne.vic.gov.au/,10,f,25,Preston,11.3,32852,2907
+9,Melbourne,Australija,Australija,9992,31,5159211,516,Sally Capp,https://www.melbourne.vic.gov.au/,10,f,26,Coburg,7,26185,3740
+9,Melbourne,Australija,Australija,9992,31,5159211,516,Sally Capp,https://www.melbourne.vic.gov.au/,10,f,27,Clayton,7.7,19358,2514
+9,Melbourne,Australija,Australija,9992,31,5159211,516,Sally Capp,https://www.melbourne.vic.gov.au/,10,f,28,Greensborough,11.3,20821,1843
+10,Rim,Italija,Europa,1285,21,2860009,2236,Roberto Gualtieri,https://www.comune.roma.it/,1,t,29,Municipio I,19.91,186802,9382
+10,Rim,Italija,Europa,1285,21,2860009,2236,Roberto Gualtieri,https://www.comune.roma.it/,1,t,30,Municipio II,19.60,167736,8567
+10,Rim,Italija,Europa,1285,21,2860009,2236,Roberto Gualtieri,https://www.comune.roma.it/,1,t,31,Municipio X,150.64,230544,1530
+10,Rim,Italija,Europa,1285,21,2860009,2236,Roberto Gualtieri,https://www.comune.roma.it/,1,t,32,Municipio XV,186.70,158561,849

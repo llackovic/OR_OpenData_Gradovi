@@ -1,0 +1,107 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://localhost:8080/gradovi.json",
+    "type": "array",
+    "title": "Gradovi",
+    "description": "Skup gradova",
+    "items": {
+        "type": "object",
+        "title": "Grad",
+        "description": "Svi podatci o nekom gradu.",
+        "required": [
+            "naziv"
+        ],
+        "properties": {
+            "naziv": {
+                "type": "string",
+                "title": "Naziv",
+                "description": "Ime grada."
+            },
+            "drzava": {
+                "type": "string",
+                "title": "Drzava",
+                "description": "Ime drzave u kojoj se grad nalazi."
+            },
+            "kontinent": {
+                "type": "string",
+                "title": "Kontinent",
+                "description": "Ime kontinenta na kojem se grad nalazi."
+            },
+            "povrsina": {
+                "type": "integer",
+                "title": "Povrsina",
+                "description": "Ukupna povrsina grada."
+            },
+            "nadmorska_visina": {
+                "type": "integer",
+                "title": "Nadmorska visina",
+                "description": "Nadmorska visina na kojoj je grad."
+            },
+            "broj_stanovnika": {
+                "type": "integer",
+                "title": "Broj stanovnika",
+                "description": "Ukupan broj stanovnika nekog grada."
+            },
+            "gustoca_naseljenosti": {
+                "type": "integer",
+                "title": "Gustoca naseljenosti",
+                "description": "Gustoca naseljenosti u gradu mjerena u stan/km2."
+            },
+            "gradonacelnik": {
+                "type": "string",
+                "title": "Gradonacelnik",
+                "description": "Ime gradonacenika nekog grada."
+            },
+            "web": {
+                "type": "string",
+                "title": "Web",
+                "description": "Web adresa sjedišta grada."
+            },
+            "vremenska_zona": {
+                "type": "integer",
+                "title": "Vremenska zona",
+                "description": "Vremenska zona u kojoj se grad nalazi."
+            },
+            "glavni_grad": {
+                "type": "boolean",
+                "title": "Glavni grad",
+                "description": "Da li je taj grad glavni grad države u kojoj se nalazi."
+            },
+            "gradske_cetvrti": {
+                "type": "array",
+                "title": "Gradske cetvrti",
+                "description": "Lista gradskih cetvrti nekoga grada.",
+                "items": {
+                    "type": "object",
+                    "title": "Gradska cetvrt",
+                    "description": "Gradska cetvrt sa svim svojim podatcima.",
+                    "required": [
+                        "naziv"
+                    ],
+                    "properties": {
+                        "naziv": {
+                            "type": "string",
+                            "title": "Naziv",
+                            "description": "Naziv gradske cetvrti"
+                        },
+                        "povrsina": {
+                            "type": "number",
+                            "title": "Povrsina",
+                            "description": "Ukupna površina gradske četvrti."
+                        },
+                        "broj_stanovnika": {
+                            "type": "integer",
+                            "title": "Broj stanovnika",
+                            "description": "Broj stanovnika neke gradske cetvrti."
+                        },
+                        "gustoca_naseljenosti": {
+                            "type": "integer",
+                            "title": "Gustoca naseljenosti",
+                            "description": "Gustoca naseljenosti u nekoj gradskoj cetvrti."
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

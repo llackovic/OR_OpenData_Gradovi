@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+
+<body>
+
+    <header th:fragment="header" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span class="fs-4">Gradovi - otvoreni skup podataka</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/" class="nav-link" th:classappend="${page == 'index' ? 'active' : ''}">Početna</a></li>
+        <li class="nav-item"><a href="/datatable" class="nav-link" th:classappend="${page == 'datatable' ? 'active' : ''}">Tablični podatci</a></li>
+      </ul>
+    </header>
+    
+    <footer th:fragment="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+	    <p class="col-md-4 mb-0 text-muted">&copy; 2021 Copyright, MIT Licence</p>
+	
+	    <ul class="nav col-md-4 justify-content-end">
+	      <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Početna</a></li>
+	      <li class="nav-item"><a href="/datatable" class="nav-link px-2 text-muted">Tablični podatci</a></li>
+	    </ul>
+  	</footer>
+  
+</body>
+</html>
