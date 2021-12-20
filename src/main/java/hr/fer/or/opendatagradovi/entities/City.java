@@ -11,6 +11,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 @Entity
 @Table(name = "grad")
 public class City {
@@ -52,6 +54,7 @@ public class City {
 	@Column(name = "glavni_grad")
 	private Boolean capital;
 	
+	@JsonManagedReference
 	@OneToMany(mappedBy = "cityId", cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<District> districts;
 	
@@ -73,6 +76,20 @@ public class City {
 		this.web = web;
 		this.timezone = timezone;
 		this.capital = capital;
+	}
+	
+	public void updateAll(City city) {
+		this.name = city.getName();
+		this.country = city.getCountry();
+		this.continent = city.getContinent();
+		this.surface = city.getSurface();
+		this.elevation = city.getElevation();
+		this.population = city.getPopulation();
+		this.populationDensity = city.getPopulationDensity();
+		this.mayor = city.getMayor();
+		this.web = city.getWeb();
+		this.timezone = city.getTimezone();
+		this.capital = city.getCapital();
 	}
 
 	public long getId() {

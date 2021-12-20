@@ -1,0 +1,674 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "Api Documentation",
+        "description": "Api Documentation for Cities and Districts",
+        "contact": {
+            "name": "Luka Lacković",
+            "email": "luka.lackovic@fer.hr"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8080",
+            "description": "Inferred Url"
+        }
+    ],
+    "tags": [
+        {
+            "name": "api-controller",
+            "description": "API Controller"
+        }
+    ],
+    "paths": {
+        "/cities": {
+            "get": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Get all cities from collection",
+                "operationId": "getAllCitiesUsingGET",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«City»"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Save a city to collection",
+                "operationId": "saveCityUsingPOST",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/City"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "Error-ModelName{namespace='hr.fer.or.opendatagradovi.entities', name='ResponseWrapper'}"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    },
+                    "409": {
+                        "description": "Conflict",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "Error-ModelName{namespace='hr.fer.or.opendatagradovi.entities', name='ResponseWrapper'}"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/cities/{id}": {
+            "get": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Get all cities from collection using ID",
+                "operationId": "getCityByIdUsingGET",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "style": "simple",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«City»"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Update city with provided ID",
+                "operationId": "updateCityUsingPUT",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "style": "simple",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/City"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«City»"
+                                }
+                            }
+                        }
+                    },
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "Error-ModelName{namespace='hr.fer.or.opendatagradovi.entities', name='ResponseWrapper'}"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    },
+                    "409": {
+                        "description": "Conflict",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "Error-ModelName{namespace='hr.fer.or.opendatagradovi.entities', name='ResponseWrapper'}"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Delete city with provided ID",
+                "operationId": "deleteCityUsingDELETE",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "style": "simple",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«City»"
+                                }
+                            }
+                        }
+                    },
+                    "204": {
+                        "description": "No Content"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    }
+                }
+            }
+        },
+        "/cities/{id}/districts": {
+            "get": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Get all districts from city with provided ID",
+                "operationId": "getAllDistrictsFromCityUsingGET",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "style": "simple",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«District»"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        },
+        "/district/{id}": {
+            "delete": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Delete district with provided ID",
+                "operationId": "deleteDistrictUsingDELETE",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "style": "simple",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«District»"
+                                }
+                            }
+                        }
+                    },
+                    "204": {
+                        "description": "No Content"
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    }
+                }
+            }
+        },
+        "/districts": {
+            "get": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Get all districts from collection",
+                "operationId": "getAllDistrictsUsingGET",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«District»"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Save a district to collection",
+                "operationId": "saveDistrictUsingPOST",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/DistrictRepresentation"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "Error-ModelName{namespace='hr.fer.or.opendatagradovi.entities', name='ResponseWrapper'}"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    },
+                    "409": {
+                        "description": "Conflict",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "Error-ModelName{namespace='hr.fer.or.opendatagradovi.entities', name='ResponseWrapper'}"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/districts/{id}": {
+            "get": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Get all districts from collection with provided ID",
+                "operationId": "getDistrictByIdUsingGET",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "style": "simple",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«District»"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "api-controller"
+                ],
+                "summary": "Update district with provided ID",
+                "operationId": "updateDistrictUsingPUT",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id",
+                        "required": true,
+                        "style": "simple",
+                        "schema": {
+                            "type": "integer",
+                            "format": "int64"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/DistrictRepresentation"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ResponseWrapper«District»"
+                                }
+                            }
+                        }
+                    },
+                    "201": {
+                        "description": "Created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "Error-ModelName{namespace='hr.fer.or.opendatagradovi.entities', name='ResponseWrapper'}"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Unauthorized"
+                    },
+                    "403": {
+                        "description": "Forbidden"
+                    },
+                    "404": {
+                        "description": "Not Found"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "City": {
+                "title": "City",
+                "type": "object",
+                "properties": {
+                    "capital": {
+                        "type": "boolean"
+                    },
+                    "continent": {
+                        "type": "string"
+                    },
+                    "country": {
+                        "type": "string"
+                    },
+                    "districts": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/District"
+                        }
+                    },
+                    "elevation": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "id": {
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "mayor": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "population": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "populationDensity": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "surface": {
+                        "type": "number",
+                        "format": "double"
+                    },
+                    "timezone": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "web": {
+                        "type": "string"
+                    }
+                }
+            },
+            "District": {
+                "title": "District",
+                "type": "object",
+                "properties": {
+                    "cityId": {
+                        "$ref": "#/components/schemas/City"
+                    },
+                    "id": {
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "population": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "populationDensity": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "surface": {
+                        "type": "number",
+                        "format": "double"
+                    }
+                }
+            },
+            "DistrictRepresentation": {
+                "title": "DistrictRepresentation",
+                "type": "object",
+                "properties": {
+                    "cityId": {
+                        "type": "integer",
+                        "format": "int64"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "population": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "populationDensity": {
+                        "type": "integer",
+                        "format": "int32"
+                    },
+                    "surface": {
+                        "type": "number",
+                        "format": "double"
+                    }
+                }
+            },
+            "ResponseWrapper«City»": {
+                "title": "ResponseWrapper«City»",
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "type": "string"
+                    },
+                    "response": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/City"
+                        }
+                    },
+                    "status": {
+                        "type": "string"
+                    }
+                }
+            },
+            "ResponseWrapper«District»": {
+                "title": "ResponseWrapper«District»",
+                "type": "object",
+                "properties": {
+                    "message": {
+                        "type": "string"
+                    },
+                    "response": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/District"
+                        }
+                    },
+                    "status": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}

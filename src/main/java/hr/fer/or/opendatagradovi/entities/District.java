@@ -9,6 +9,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 @Table(name = "gradska_cetvrt")
 public class District {
@@ -29,6 +31,7 @@ public class District {
 	@Column(name = "gustoca_naseljenosti")
 	private Integer populationDensity;
 	
+	@JsonBackReference
 	@ManyToOne
 	@JoinColumn(name = "grad_id")
 	private City cityId;
@@ -44,6 +47,15 @@ public class District {
 		this.population = population;
 		this.populationDensity = populationDensity;
 		this.cityId = city;
+	}
+	
+	public void updateAll(District district) {
+		this.name = district.getName();
+		this.surface = district.getSurface();
+		this.population = district.getPopulation();
+		this.populationDensity = district.getPopulationDensity();
+		this.cityId = district.getCityId();
+		
 	}
 
 	public long getId() {
