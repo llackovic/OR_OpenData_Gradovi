@@ -33,7 +33,7 @@ public class SwaggerConfig {
 							"1.0", 
 							null, 
 							new Contact("Luka Lacković", null, "luka.lackovic@fer.hr"), 
-							"Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0", 
+							"MIT Licence", "https://opensource.org/licenses/MIT", 
 							Collections.emptyList());
 		
 	}
