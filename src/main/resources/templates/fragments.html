@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
@@ -15,6 +15,19 @@
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="/" class="nav-link" th:classappend="${page == 'index' ? 'active' : ''}">Početna</a></li>
         <li class="nav-item"><a href="/datatable" class="nav-link" th:classappend="${page == 'datatable' ? 'active' : ''}">Tablični podatci</a></li>
+        <li class="nav-item" sec:authorize="!isAuthenticated()"><a th:href="@{/oauth2/authorization/auth0}" class="nav-link active">Login</a></li>
+        <!--<li class="nav-item" sec:authorize="isAuthenticated()">
+        	<p class="nav-link">Prijavljeni ste</p>
+        </li>-->
+        <li class="nav-item" sec:authorize="isAuthenticated()">
+        	<a th:href="@{/userinfo}" class="nav-link" th:classappend="${page == 'userinfo' ? 'active' : ''}">Korisnički profil</a>
+        </li>
+        <li class="nav-item" sec:authorize="isAuthenticated()">
+        	<a th:href="@{/refreshcopies}" class="nav-link" th:classappend="${page == 'refreshcopies' ? 'active' : ''}">Osvježi preslike</a>
+        </li>
+        <li class="nav-item" sec:authorize="isAuthenticated()">
+        	<a th:href="@{/logout}" class="nav-link active">Logout</a>
+        </li>
       </ul>
     </header>
     

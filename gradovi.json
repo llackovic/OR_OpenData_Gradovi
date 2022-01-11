@@ -1,5 +1,11 @@
 [
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 1,
         "naziv": "Zagreb",
         "drzava": "Hrvatska",
@@ -8,12 +14,22 @@
         "nadmorska_visina": 158,
         "broj_stanovnika": 790017,
         "gustoca_naseljenosti": 1232,
-        "gradonacelnik": "Tomislav Tomašević",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Tomislav Tomašević"
+        },
         "web": "http://www.zagreb.hr/",
         "vremenska_zona": 1,
         "glavni_grad": true,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 1,
                 "naziv": "Sesvete",
                 "povrsina": 165.26,
@@ -21,6 +37,10 @@
                 "gustoca_naseljenosti": 428
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 2,
                 "naziv": "Gornja Dubrava",
                 "povrsina": 40.28,
@@ -28,6 +48,10 @@
                 "gustoca_naseljenosti": 1555
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 3,
                 "naziv": "Maksimir",
                 "povrsina": 14.35,
@@ -35,6 +59,10 @@
                 "gustoca_naseljenosti": 3532
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 4,
                 "naziv": "Donji grad",
                 "povrsina": 3.01,
@@ -44,6 +72,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 2,
         "naziv": "Rijeka",
         "drzava": "Hrvatska",
@@ -52,12 +86,22 @@
         "nadmorska_visina": 12,
         "broj_stanovnika": 128624,
         "gustoca_naseljenosti": 2923,
-        "gradonacelnik": "Marko Filipović",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Marko Filipović"
+        },
         "web": "http://www.rijeka.hr/",
         "vremenska_zona": 1,
         "glavni_grad": false,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 5,
                 "naziv": "Banderovo",
                 "povrsina": 0.36,
@@ -65,6 +109,10 @@
                 "gustoca_naseljenosti": 6208
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 6,
                 "naziv": "Draga",
                 "povrsina": 3.45,
@@ -72,6 +120,10 @@
                 "gustoca_naseljenosti": 424
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 7,
                 "naziv": "Podvežica",
                 "povrsina": 0.73,
@@ -81,6 +133,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 3,
         "naziv": "Split",
         "drzava": "Hrvatska",
@@ -89,12 +147,22 @@
         "nadmorska_visina": 0,
         "broj_stanovnika": 178192,
         "gustoca_naseljenosti": 2256,
-        "gradonacelnik": "Ivica Puljak",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Ivica Puljak"
+        },
         "web": "http://www.split.hr/",
         "vremenska_zona": 1,
         "glavni_grad": false,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 8,
                 "naziv": "Bačvice",
                 "povrsina": 1.19,
@@ -102,6 +170,10 @@
                 "gustoca_naseljenosti": 2812
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 9,
                 "naziv": "Bol",
                 "povrsina": 0.52,
@@ -109,6 +181,10 @@
                 "gustoca_naseljenosti": 22212
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 10,
                 "naziv": "Lokve",
                 "povrsina": 0.21,
@@ -118,6 +194,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 4,
         "naziv": "New York",
         "drzava": "Sjedinjene Američke Države",
@@ -126,12 +208,22 @@
         "nadmorska_visina": 10,
         "broj_stanovnika": 8804190,
         "gustoca_naseljenosti": 11314,
-        "gradonacelnik": "Bill de Blasio",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Bill de Blasio"
+        },
         "web": "https://www.nyc.gov/",
         "vremenska_zona": -5,
         "glavni_grad": false,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 11,
                 "naziv": "The Bronx",
                 "povrsina": 109.3,
@@ -139,6 +231,10 @@
                 "gustoca_naseljenosti": 13482
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 12,
                 "naziv": "Brooklyn",
                 "povrsina": 179.7,
@@ -146,6 +242,10 @@
                 "gustoca_naseljenosti": 15227
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 13,
                 "naziv": "Manhattan",
                 "povrsina": 58.8,
@@ -153,6 +253,10 @@
                 "gustoca_naseljenosti": 28872
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 14,
                 "naziv": "Queens",
                 "povrsina": 281.5,
@@ -162,6 +266,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 5,
         "naziv": "Washington",
         "drzava": "Sjedinjene Američke Države",
@@ -170,12 +280,22 @@
         "nadmorska_visina": 125,
         "broj_stanovnika": 689545,
         "gustoca_naseljenosti": 4361,
-        "gradonacelnik": "Muriel Bowser",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Muriel Bowser"
+        },
         "web": "http://dc.gov/",
         "vremenska_zona": -5,
         "glavni_grad": true,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 15,
                 "naziv": "Columbia Heights",
                 "povrsina": 2.2,
@@ -183,6 +303,10 @@
                 "gustoca_naseljenosti": 9716
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 16,
                 "naziv": "Georgetown",
                 "povrsina": 3.035,
@@ -192,6 +316,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 6,
         "naziv": "London",
         "drzava": "Ujedinjeno Kraljevstvo",
@@ -200,12 +330,22 @@
         "nadmorska_visina": 11,
         "broj_stanovnika": 8961989,
         "gustoca_naseljenosti": 5701,
-        "gradonacelnik": "Sadiq Khan",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Sadiq Khan"
+        },
         "web": "https://www.london.gov.uk/",
         "vremenska_zona": 0,
         "glavni_grad": true,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 17,
                 "naziv": "Southwark",
                 "povrsina": 28.85,
@@ -213,6 +353,10 @@
                 "gustoca_naseljenosti": 11050
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 18,
                 "naziv": "City of Westminister",
                 "povrsina": 21.48,
@@ -222,6 +366,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 7,
         "naziv": "Barcelona",
         "drzava": "Španjolska",
@@ -230,12 +380,22 @@
         "nadmorska_visina": 12,
         "broj_stanovnika": 1620343,
         "gustoca_naseljenosti": 16043,
-        "gradonacelnik": "Ada Colau Ballano",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Ada Colau Ballano"
+        },
         "web": "http://www.barcelona.cat/",
         "vremenska_zona": 1,
         "glavni_grad": false,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 19,
                 "naziv": "Ciutat Vella",
                 "povrsina": 4.49,
@@ -243,6 +403,10 @@
                 "gustoca_naseljenosti": 24786
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 20,
                 "naziv": "Eixample",
                 "povrsina": 7.46,
@@ -250,6 +414,10 @@
                 "gustoca_naseljenosti": 35586
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 21,
                 "naziv": "Sants-Montjuic",
                 "povrsina": 21.35,
@@ -259,6 +427,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 8,
         "naziv": "Berlin",
         "drzava": "Njemačka",
@@ -267,12 +441,22 @@
         "nadmorska_visina": 34,
         "broj_stanovnika": 3664088,
         "gustoca_naseljenosti": 4108,
-        "gradonacelnik": "Michael Müller",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Michael Müller"
+        },
         "web": "http://www.berlin.de/en/",
         "vremenska_zona": 1,
         "glavni_grad": true,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 22,
                 "naziv": "Charlottenburg-Wilmersdorf",
                 "povrsina": 64.72,
@@ -280,6 +464,10 @@
                 "gustoca_naseljenosti": 4878
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 23,
                 "naziv": "Friedrichshain-Kreuzberg",
                 "povrsina": 20.16,
@@ -287,6 +475,10 @@
                 "gustoca_naseljenosti": 13187
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 24,
                 "naziv": "Lichtenberg",
                 "povrsina": 52.29,
@@ -296,6 +488,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 9,
         "naziv": "Melbourne",
         "drzava": "Australija",
@@ -304,12 +502,22 @@
         "nadmorska_visina": 31,
         "broj_stanovnika": 5159211,
         "gustoca_naseljenosti": 516,
-        "gradonacelnik": "Sally Capp",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Sally Capp"
+        },
         "web": "https://www.melbourne.vic.gov.au/",
         "vremenska_zona": 10,
         "glavni_grad": false,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 25,
                 "naziv": "Preston",
                 "povrsina": 11.3,
@@ -317,6 +525,10 @@
                 "gustoca_naseljenosti": 2907
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 26,
                 "naziv": "Coburg",
                 "povrsina": 7,
@@ -324,6 +536,10 @@
                 "gustoca_naseljenosti": 3740
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 27,
                 "naziv": "Clayton",
                 "povrsina": 7.7,
@@ -331,6 +547,10 @@
                 "gustoca_naseljenosti": 2514
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 28,
                 "naziv": "Greensborough",
                 "povrsina": 11.3,
@@ -340,6 +560,12 @@
         ]
     },
     {
+        "@context": {
+            "naziv": "https://schema.org/name",
+            "drzava": "https://schema.org/addressCountry",
+            "gradonacelnik": "https://schema.org/Person",
+            "web": "https://schema.org/url"
+        },
         "id": 10,
         "naziv": "Rim",
         "drzava": "Italija",
@@ -348,12 +574,22 @@
         "nadmorska_visina": 21,
         "broj_stanovnika": 2860009,
         "gustoca_naseljenosti": 2236,
-        "gradonacelnik": "Roberto Gualtieri",
+        "gradonacelnik": {
+            "@context": {
+                "@vocab": "http://schema.org/",
+                "ime": "name"
+            },
+            "ime": "Roberto Gualtieri"
+        },
         "web": "https://www.comune.roma.it/",
         "vremenska_zona": 1,
         "glavni_grad": true,
         "gradske_cetvrti": [
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 29,
                 "naziv": "Municipio I",
                 "povrsina": 19.91,
@@ -361,6 +597,10 @@
                 "gustoca_naseljenosti": 9382
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 30,
                 "naziv": "Municipio II",
                 "povrsina": 19.60,
@@ -368,6 +608,10 @@
                 "gustoca_naseljenosti": 8567
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 31,
                 "naziv": "Municipio X",
                 "povrsina": 150.64,
@@ -375,6 +619,10 @@
                 "gustoca_naseljenosti": 1530
             },
             {
+                "@context": {
+                    "@vocab": "https://schema.org/",
+                    "naziv": "name"
+                },
                 "id": 32,
                 "naziv": "Municipio XV",
                 "povrsina": 186.70,
